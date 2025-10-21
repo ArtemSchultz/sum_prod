@@ -22,8 +22,9 @@ int main(int argc, char* argv[]) {
         std::cout << summ << ", " << prod << std::endl;
     } else {
 	unsigned int number;
-	std::cout << "Enter your number: ";
+	//std::cout << "Enter your number: ";
 	std::cin >> number;
+
 	do{
 	summ += number % 10;
 	prod *= number % 10;
